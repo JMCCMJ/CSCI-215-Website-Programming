@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+	<meta charset="UTF-8">
+	<title>Top Vacation Spots</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="jquery.validate.min.js"></script>
+	<script src="additional-methods.min.js"></script>	
+	<script src="home.js"></script>
+</head>
+
+    <!--All the html I wrote except a little bit of the navigation bar and the Google maps code -->
+<body>
+    <div id="entire_body" style="display:none;">
+        <ul class="nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <h1>
+            <p>
+                Top Vacation Spots
+            </p>
+        </h1>
+        <div align="center" class="selector">
+            <label class="location">Location:</label>
+                <select class="weatherSelection" id="weatherSelection">                
+                    <option value="hotWeather">Hot Weather</option>
+                    <option value="coldWeather">Cold Weather</option>
+                </select>
+            </label>
+        </div>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    <input type="button" value="◄" name="prev" id="prev1">
+                    <img src="images/dominican%20republic/dom-beach-1.jpg" alt="Dominican Beach View" id="image1" >
+                    <input type="button" value="►" name="next" id="next1">
+                    <span class="first_info_stuff">
+                <h3 class="first_info" id="firsth3">1. The Dominican Republic</h3>
+                <p class="description">Nestled in the island of Hispaniola is the Dominican Republic. The island that Columbus landed on. Come and visit for the perfect beach and sunny weather experience!</p>
+
+            </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="◄" name="prev" id="prev2">
+                    <img src="images/playa-del-carmen/playa-1.jpg" alt="Playa-del-Carmen" id="image2" >
+                    <input type="button" value="►" name="next" id="next2" style="float:left;">
+                    <span>
+                        <h3 class="first_info" id="secondh3">2. Playa del Carmen</h3>
+                        <p class="description">Another paradise for beach lovers! Come stay at a nice resort and enjoy the crystal clear blue waters!</p>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="◄" name="prev" id="prev3">
+                    <img src="images/miami/miami-1.jpg" alt="Miama" id="image3" >
+                    <input type="button" value="►" name="next" id="next3" style="float:left;">
+                    <span>
+                        <h3 class="first_info" id="thirdh3">3. Miami Beach</h3>
+                        <p class="description">Looking for fun? Hit up spring break's hottest destination to party with your friends! Miami's white beaches and blue waters are for everyone!</p>
+                    </span>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js"
+         async defer></script>
+    <script>
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+</body>
+<footer>
+    <p>&copy; Jan-Michael Carrington</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

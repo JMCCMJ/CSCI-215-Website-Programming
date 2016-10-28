@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+	<meta charset="UTF-8">
+	<title>Top Vacation Spots</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="jquery.validate.min.js"></script>
+	<script src="additional-methods.min.js"></script>	
+	<script src="reservation.js"></script>
+</head>
+<ul class="nav">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="/contact/">Search</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+<body>
+	<h1>About Us</h1>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js"
+         async defer></script>
+    <script>
+        function initMap() {
+            var mapDiv = document.getElementById('map');
+            var map = new google.maps.Map(mapDiv, {
+                center: {lat: 32.792896, lng: -79.942448},
+                zoom: 13
+             });
+        }
+</script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+	
+</body>
+</html>

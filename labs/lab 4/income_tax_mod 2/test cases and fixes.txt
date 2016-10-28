@@ -1,0 +1,9 @@
+Test Cases that Need to be Fixed:
+Compile Errors: Misplaced paranthesis.
+Button not working. Fix: Fix function spelling to calculate_tax.
+Numbers between 8700 and <= 35350 not working. Fix: parseFloat spelled wrong.
+Numbers above 388350 Fix: change tax to taxes
+500000 gave 21460 but should return 151760.50. Fix: should subtract 388350 and set var taxes as tax.
+40000 returns 6029.50 but should return 5954.50. Fix: Subtract 35650 instead of 35350.
+
+All calculators work as intended now.

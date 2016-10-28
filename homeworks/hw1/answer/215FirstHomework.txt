@@ -1,0 +1,45 @@
+﻿Jan-Michael Carrington
+CSCI-215-TR
+Professor Alexander
+
+
+(No Error means no error was given for the corresponding text input box.)
+
+
+1.   nothing, a, nothing
+This field is required.
+This entry must equal first entry.
+This field is required.
+
+2.   nothing, a, a
+This field is required.
+This entry must equal first entry.
+No Error
+
+3.   nothing, nothing, nothing
+This field is required.
+No Error
+This field is required.
+
+4.   nothing, nothing, a
+This field is required.
+No Error
+No Error
+
+5.   a, nothing, nothing
+No Error
+This entry must equal first entry.
+This field is required.
+
+6.   a, nothing, a
+No Error
+This entry must equal first entry.
+No Error
+
+7.   a, a, nothing
+No Error
+No Error
+This field is required.
+
+8.   a, a, a
+No Error, text “Thanks for joining our email list!” was given.
